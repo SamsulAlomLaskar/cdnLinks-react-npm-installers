@@ -6,3 +6,6 @@ To stop a running process in gitbash> rm -f ./.git/index.lock
 to stop the cors-error
 win + r (run)
 chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+
+!! (operator)
+this operator converts truthy or falsy value to a boolean value
