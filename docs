@@ -8,4 +8,6 @@ win + r (run)
 chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
 
 !! (operator)
-this operator converts truthy or falsy value to a boolean value
+This operator converts truthy or falsy value to a boolean value
+
+useRouter hook to get the id/path of the route (similar to the useParams of react-router-dom)
