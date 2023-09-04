@@ -11,3 +11,6 @@ chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
 This operator converts truthy or falsy value to a boolean value
 
 useRouter hook to get the id/path of the route (similar to the useParams of react-router-dom)
+
+getStaticProps helps us to load static pages by default & it should be called inside the pages component. Next.js will look for this method, if it finds this then it will execute it during the pre-rendering process. It won't execute in the client side
+It needs to return an object with props property that also should be an object & it will receive the props we receive in our main component
